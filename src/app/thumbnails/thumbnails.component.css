@@ -1,0 +1,22 @@
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    margin:10px;
+    justify-content: space-around
+}
+
+.cdd{
+    max-width: 250px;
+}
+
+.pagination_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.actions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}

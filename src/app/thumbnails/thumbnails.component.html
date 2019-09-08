@@ -1,0 +1,29 @@
+<div class="container">
+
+    
+
+    <div class="images">
+    
+        <div *ngFor="let image of images" class="card medium cdd">
+        <div class="card-image">
+          <img src="{{image.download_url}}">
+          
+        </div>
+        <div class="card-content"><span class="card-title">Author: {{image.author}}</span></div>
+        <div class="card-action actions">
+          <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook-like.png"></a>
+          <a href="#"><img src="https://img.icons8.com/material-rounded/24/000000/comments.png"></a>
+          <a href="#"><img src="https://img.icons8.com/material-rounded/24/000000/share.png"></a>
+        </div>
+      </div>
+    
+    </div>
+
+    <div class="pagination_buttons">
+        <button (click)="last_page()">&laquo;</button>   <button (click)="next_page()">&raquo;</button>
+    </div>
+    <br>
+    <br>
+
+</div>
+
